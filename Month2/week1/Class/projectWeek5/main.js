@@ -7,5 +7,4 @@ const main = () => {
     const jsonReady = csvToJson(csvFormated)
     saveToJason(jsonReady, "productsPriceList.json")
 }
-
 main()
