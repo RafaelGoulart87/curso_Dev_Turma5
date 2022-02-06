@@ -1,0 +1,50 @@
+/* MOBILE */
+
+h1 {
+    color: red;
+}
+
+
+/* TABLET */
+
+@media (min-width: 768px) {
+    h1 {
+        color: blue;
+    }
+}
+
+
+/* DESCKTOP */
+
+@media (min-width: 1024px) {
+    h1 {
+        color: green
+    }
+}
+
+
+/* LISTA DE BREACKPOINTS PADRÃO */
+
+
+/* PEQUENO DISPOSITIVO E LANDSCAPE */
+
+@media (min-width:576px) {}
+
+
+/* TABLET */
+
+@media (min-width: 768px) {}
+
+
+/* DESCKTOPS E NOTEBOOKS */
+
+@media(min-width: 992px) {}
+
+
+/* DESCKTOPS GRANDES */
+
+@media(minwidth: 1200px) {}
+
+.button {
+    transform: rotate(25deg);
+}
