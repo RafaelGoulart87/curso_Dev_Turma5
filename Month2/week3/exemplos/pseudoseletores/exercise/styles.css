@@ -1,0 +1,12 @@
+.button {
+    background-color: red;
+    border-style: 20px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.list-item:nth-child(even) {
+    background-color: aquamarine;
+}
