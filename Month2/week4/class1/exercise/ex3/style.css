@@ -1,0 +1,18 @@
+.calculator {
+    padding-top: 16px;
+    background-color: blueviolet;
+    padding-bottom: 32px;
+}
+
+.calculator-page {
+    text-align: center;
+}
+
+.calculator-card {
+    padding-left: 370px;
+}
+
+#resultados {
+    display: flex;
+    flex-direction: column-reverse;
+}
