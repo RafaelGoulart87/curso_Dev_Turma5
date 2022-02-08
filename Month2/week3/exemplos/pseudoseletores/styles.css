@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     color: red
 }
@@ -37,4 +38,45 @@ h1 {
 
 .list-item:nth-child(2) {
     color: darkseagreen;
+=======
+h1 {
+    color: red
+}
+
+.button {
+    border: none;
+    padding: 5px 10px;
+    background-color: blueviolet;
+}
+
+.button:hover {
+    background-color: coral;
+}
+
+.list {
+    background-color: crimson;
+    padding: 20px;
+}
+
+.list:empty {
+    display: none;
+}
+
+.list-item {
+    color: darkblue;
+    font-size: 20px;
+    list-style: none;
+}
+
+.list-item:first-child {
+    color: darkgoldenrod;
+}
+
+.list-item:last-child {
+    color: darkgreen;
+}
+
+.list-item:nth-child(2) {
+    color: darkseagreen;
+>>>>>>> e817c6defb99b181252f88dc03286784abfd5ae4
 }

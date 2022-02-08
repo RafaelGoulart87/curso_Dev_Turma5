@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     display: flex;
     flex-direction: column;
@@ -29,4 +30,37 @@
     .box p {
         font-size: 18px;
     }
+=======
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    height: 200px;
+    background-color: green;
+    width: 100%;
+}
+
+@media(min-width:992px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+.box p {
+    font-size: 14px;
+}
+
+@media(min-width:768px) {
+    .box p {
+        font-size: 16px;
+    }
+}
+
+@media(min-width:992px) {
+    .box p {
+        font-size: 18px;
+    }
+>>>>>>> e817c6defb99b181252f88dc03286784abfd5ae4
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button {
     background-color: red;
     border-style: 20px;
@@ -9,4 +10,17 @@
 
 .list-item:nth-child(even) {
     background-color: aquamarine;
+=======
+.button {
+    background-color: red;
+    border-style: 20px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.list-item:nth-child(even) {
+    background-color: aquamarine;
+>>>>>>> e817c6defb99b181252f88dc03286784abfd5ae4
 }
